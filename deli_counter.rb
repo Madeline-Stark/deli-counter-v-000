@@ -18,7 +18,7 @@ end
 
 def now_serving(array)
   if array = []
-    puts
+    puts "There is nobody waiting to be served!"
   else
     puts "#{array(0)}"
     array.unshift
