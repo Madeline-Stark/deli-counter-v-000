@@ -17,8 +17,10 @@ def take_a_number(array, customer)
 end
 
 def now_serving(array)
-  if
+  if array = []
+    puts
   else
     puts "#{array(0)}"
     array.unshift
-  end 
+  end
+end
