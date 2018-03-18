@@ -7,7 +7,7 @@ def line(array)
     array.each_with_index do|customer, index|
     new_array << "#{index + 1}. #{customer} "
     end
-    puts "The line is currently: #{new_array.join}"
+    puts "The line is currently: #{new_array.join.rstrip}"
   end
 end
 
