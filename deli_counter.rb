@@ -4,7 +4,7 @@ def line(array)
     puts "The line is currently empty."
   else
     new_array = []
-    array.each.with_index do|customer|
+    array.each_with_index do|customer|
     new_array << " #{customer}"
     end
     puts "The line is currently: #{new_array.join}"
