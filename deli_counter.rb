@@ -15,3 +15,10 @@ def take_a_number(array, customer)
   array << customer
   puts "Welcome, #{customer}. You are number #{array.length} in line."
 end
+
+def now_serving(array)
+  if
+  else
+    puts "#{array(0)}"
+    array.unshift
+  end 
