@@ -12,5 +12,5 @@ def line(array)
 end
 
 def take_a_number(array, customer)
-  puts "#{customer} is in position #{array.length + 2}"
+  puts "Welcome #{customer}. You are number #{array.length + 1} in line."
 end
