@@ -11,9 +11,6 @@ def line(array)
   end
 end
 
-#.withindex-call after .each method...provides index variable-can use that on line 8-try interpolating in
-
-#def take_a_number(array, customer)
-  #number = line(array, customer) + 1
-  #return number + customer
-#end
+def take_a_number(array, customer)
+  puts "#{customer} is in position #{array.length + 2}"
+end
